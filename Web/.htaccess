@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /sc/
+
+RewriteCond $1 !^(index\.php|robots\.txt|favicon.ico|join.php|paper.pdf|logout.php|login.php)
+RewriteCond %{REQUEST_URI} !^/sc/vendor
+RewriteCond %{REQUEST_URI} !^/sc/units
+RewriteCond %{REQUEST_URI} !^/sc/phpmyadmin
+RewriteCond %{REQUEST_URI} !^/sc/maps
+RewriteCond %{REQUEST_URI} !^/sc/js
+RewriteCond %{REQUEST_URI} !^/sc/units
+RewriteCond %{REQUEST_URI} !^/sc/images
+RewriteCond %{REQUEST_URI} !^/sc/games
+RewriteCond %{REQUEST_URI} !^/sc/css
+
+RewriteRule ^(.*)$ /sc/index.php?pos=$1 [L]
+
