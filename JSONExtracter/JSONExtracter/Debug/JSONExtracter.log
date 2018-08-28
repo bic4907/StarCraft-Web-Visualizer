@@ -1,0 +1,57 @@
+﻿Build started 2018-02-07 오후 2:58:32.
+     1>Project "E:\projects\JSONExtracter\JSONExtracter\JSONExtracter.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\JSONExtracter\Debug\JSONExtracter.exe" /INCREMENTAL /NOLOGO "C:\Program Files (x86)\BWAPI\lib\BWAPI.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\BWTA.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libboost_filesystem-vc120-mt-1_56.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libboost_system-vc120-mt-1_56.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libboost_thread-vc120-mt-1_56.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libCGAL-vc120-mt-4.4.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libgmp-10.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libmpfr-4.lib" E:\projects\JSONExtracter\\Plugin\lib\libprotobuf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\projects\JSONExtracter\Debug\JSONExtracter.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projects\JSONExtracter\Debug\JSONExtracter.lib" /MACHINE:X86 Debug\Dll.obj
+         Debug\JSONExtracter.obj
+         BWAPI.lib(AIModule.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>Dll.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>BWAPI.lib(AIModule.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(AIModule.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(Game.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(Game.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(Position.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(Position.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(UnitType.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(UnitType.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(Race.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(Race.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(Unit.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(Unit.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(Player.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(Player.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(Filters.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(Filters.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(Color.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(Color.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(Error.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(Error.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(DamageType.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(DamageType.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(Unitset.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(Unitset.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(WeaponType.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(WeaponType.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(PositionUnit.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(PositionUnit.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(UpgradeType.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(UpgradeType.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(TechType.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(TechType.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(UnitSizeType.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(UnitSizeType.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(UnitCommand.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(UnitCommand.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(Order.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(Order.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(ExplosionType.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(ExplosionType.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+     1>BWAPI.lib(UnitCommandType.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Dll.obj
+     1>BWAPI.lib(UnitCommandType.obj) : error LNK2038: mismatch detected for 'RuntimeLibrary': value 'MD_DynamicRelease' doesn't match value 'MDd_DynamicDebug' in Dll.obj
+            Creating library E:\projects\JSONExtracter\Debug\JSONExtracter.lib and object E:\projects\JSONExtracter\Debug\JSONExtracter.exp
+     1>LINK : fatal error LNK1561: entry point must be defined
+     1>Done Building Project "E:\projects\JSONExtracter\JSONExtracter\JSONExtracter.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.69

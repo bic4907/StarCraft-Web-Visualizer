@@ -1,0 +1,25 @@
+﻿Build started 2018-07-26 오후 12:57:25.
+     1>Project "E:\projects\JSONExtracter\JSONExtracter\JSONExtracter.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\BWAPI\include" /I"C:\Program Files (x86)\BWAPI\BWTA\include" /I\..\Plugin\include /IE:\projects\JSONExtracter\\Plugin\include /Zi /nologo /W2 /WX- /sdl /O2 /Oi /Oy- /GL /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DataManager.cpp UnitFound.cpp
+         DataManager.cpp
+         UnitFound.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projects\JSONExtracter\Release\JSONExtracter.dll" /NOLOGO "C:\Program Files (x86)\BWAPI\lib\BWAPI.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\BWTA.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libboost_filesystem-vc120-mt-1_56.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libboost_system-vc120-mt-1_56.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libboost_thread-vc120-mt-1_56.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libCGAL-vc120-mt-4.4.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libgmp-10.lib" "C:\Program Files (x86)\BWAPI\BWTA\lib\libmpfr-4.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\projects\JSONExtracter\Release\JSONExtracter.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projects\JSONExtracter\Release\JSONExtracter.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO /DLL Release\Config.obj
+         Release\DataManager.obj
+         Release\Dll.obj
+         Release\ExtracterPlayerInfo.obj
+         Release\ExtracterUnit.obj
+         Release\Frame.obj
+         Release\JSONExtracter.obj
+         Release\md5.obj
+         Release\UnitFound.obj
+         Release\Util.obj
+            Creating library E:\projects\JSONExtracter\Release\JSONExtracter.lib and object E:\projects\JSONExtracter\Release\JSONExtracter.exp
+     1>DataManager.obj : error LNK2001: unresolved external symbol "public: __thiscall UnitFound::UnitFound(class BWAPI::UnitInterface *,int)" (??0UnitFound@@QAE@PAVUnitInterface@BWAPI@@H@Z)
+     1>E:\projects\JSONExtracter\Release\JSONExtracter.dll : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "E:\projects\JSONExtracter\JSONExtracter\JSONExtracter.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.39
